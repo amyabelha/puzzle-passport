@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Ensure baseUrl ends with a slash
     if (!baseUrl.endsWith('/')) {
-        baseUrl += '/';
+        baseUrl += 'https://github.com/amyabelha/puzzle_passport/blob/main/';
     }
 
     document.getElementById('searchPuzzle').addEventListener('click', function() {
