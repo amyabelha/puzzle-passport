@@ -1,9 +1,9 @@
+/* General styles */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 button {
@@ -18,5 +18,60 @@ button {
 }
 
 button:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Specific styles for the Search Puzzle page */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Specific styles for the Register Puzzle page */
+.register-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-top: 10px;
+}
+
+.register-form input, .register-form button {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.register-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.register-form button:hover {
     background-color: #0056b3;
 }
