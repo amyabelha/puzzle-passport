@@ -1,5 +1,5 @@
 document.getElementById('searchPuzzle').addEventListener('click', function() {
-     window.location.href = 'searchPuzzle.html';
+     a href="searchPuzzle.html" onclick="window.open('searchPuzzle.html', '_self');
 });
 
 document.getElementById('registerPuzzle').addEventListener('click', function() {
